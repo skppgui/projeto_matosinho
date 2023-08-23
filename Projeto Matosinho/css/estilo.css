@@ -1,0 +1,212 @@
+/* *{
+    margin: 0;
+    padding: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    background-image: linear-gradient(45deg, #006fff, #4d1cff, #8000f0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ 
+.login_container{
+    width: 35%;
+    padding: 150px;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.inputbox1{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    position: relative;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+#ra{
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 18px;
+    top: 0;
+    left: 10px;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+
+}
+
+#password{
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 18px;
+    top: 0;
+    left: 10px;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+#ra:hover{
+    background-color: #dddddd;
+    transition: .4s;
+    border: none;
+}
+
+#password:hover{
+    background-color: #dddddd;
+    transition: .4s;
+    border: none;
+}
+
+button {
+    padding: 15px;
+    width: 50%;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #ef3b3b;
+    border: #ebce07 solid 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    justify-self: center;
+    text-shadow: 0 2px 1px black solid;
+    transition: 0.6s;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Configuração Universal */
+* {
+    margin: 0;
+    padding: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Configuração da Página */
+body {
+    background-color: #262727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Configuração do Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    width: 50%;
+    padding: 20px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 45px;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(45deg, #2d66f4, #371dff, #7714db);
+    border-radius: 10px;
+    user-select: none;
+}
+
+.row {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 40px;
+    position: relative;
+    color: #ffffff;
+}
+
+.inputbox label {
+    font-size: 18px;
+    top: 0;
+    left: 10px;
+    position: relative;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.5s; 
+    outline: 0;
+}
+
+.inputbox input:hover {
+    background-color: #d6d5d5;
+    transition: 0.5s;
+}
+
+footer {
+    color: white;
+    background-image: linear-gradient(75deg, #2d66f4, #371dff, #7714db);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+button {
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #262727;
+    border: #371dff solid 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    justify-self: center;
+    text-shadow: 0 2px 1px black solid;
+    transition: 0.6s;
+}
+
+button:hover {
+    background-color: #371dff;
+    color: white;
+    transition: 0.6s;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
